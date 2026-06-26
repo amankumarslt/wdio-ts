@@ -1,0 +1,186 @@
+{
+    "id": "7b566b35-056f-4b02-ab9d-c1b447b74ea4",
+    "remark": "Job failed as encountered a Test level failure",
+    "created_at": "2026-06-26T14:25:06Z",
+    "update_at": "2026-06-26T14:27:33Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2026-06-26T14:25:19Z",
+    "end_time": "2026-06-26T14:27:33Z",
+    "summary": {
+        "total_time": 134000000000,
+        "execution_time": 134000000000,
+        "total_tasks": 3,
+        "build_time_consumed": 230000000000,
+        "jobTestExecutionTime": "31s",
+        "failed_tasks": 1,
+        "total_stage_info": {
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 3
+            },
+            "scenario": {
+                "StageFailedPercent": 25,
+                "StagePassPercent": 75,
+                "TotalStage": 4
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 1
+            }
+        },
+        "status": "failed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=7b566b35-056f-4b02-ab9d-c1b447b74ea4"
+    },
+    "tasks": [
+        {
+            "id": "HYPL-550422-1782483917255114021ADO",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2026-06-26T14:25:17Z",
+            "update_at": "2026-06-26T14:25:43Z",
+            "start_time": "2026-06-26T14:25:19Z",
+            "end_time": "2026-06-26T14:25:43Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "1145cd99-fb8b-4055-a4db-3692029cfe85",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2026-06-26T14:25:30Z",
+                    "started_at": "2026-06-26T14:25:30Z",
+                    "updated_at": "2026-06-26T14:25:40Z",
+                    "order": 3,
+                    "task_number": 1
+                },
+                {
+                    "id": "e1b7c80d-7447-4df5-b8e4-70cdd08039e5",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2026-06-26T14:25:41Z",
+                    "started_at": "2026-06-26T14:25:40Z",
+                    "updated_at": "2026-06-26T14:25:40Z",
+                    "order": 4,
+                    "task_number": 1
+                }
+            ]
+        },
+        {
+            "id": "HYPL-550422-1782483942803041496JRQ",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2026-06-26T14:25:42Z",
+            "update_at": "2026-06-26T14:27:33Z",
+            "start_time": "2026-06-26T14:25:44Z",
+            "end_time": "2026-06-26T14:27:33Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "75cf54a5-c73c-4a39-b9cf-7db2ff6a0f70",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2026-06-26T14:25:56Z",
+                    "started_at": "2026-06-26T14:25:56Z",
+                    "updated_at": "2026-06-26T14:26:06Z",
+                    "order": 3,
+                    "task_number": 2
+                },
+                {
+                    "id": "dc6ef78f-47af-4e71-b7e6-bad8f8fd5d26",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "tests/3_ecommerce_data_driven_test.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2026-06-26T14:26:06Z",
+                    "started_at": "2026-06-26T14:26:14Z",
+                    "updated_at": "2026-06-26T14:26:38Z",
+                    "order": 5,
+                    "task_number": 2
+                },
+                {
+                    "id": "6c9173bd-ecb1-4940-befa-fed5cd39360c",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "tests/2_ecommerce_scroll_wait.spec.ts",
+                    "iteration": 0,
+                    "link": "command.2.0.log",
+                    "created_at": "2026-06-26T14:26:06Z",
+                    "started_at": "2026-06-26T14:26:38Z",
+                    "updated_at": "2026-06-26T14:26:58Z",
+                    "order": 6,
+                    "task_number": 2
+                }
+            ]
+        },
+        {
+            "id": "HYPL-550422-1782483942811455252HLK",
+            "os": "linux",
+            "status": "failed",
+            "remark": "Job failed as encountered a Test level failure",
+            "debug": false,
+            "created_at": "2026-06-26T14:25:42Z",
+            "update_at": "2026-06-26T14:27:21Z",
+            "start_time": "2026-06-26T14:25:44Z",
+            "end_time": "2026-06-26T14:27:21Z",
+            "group_number": 3,
+            "stages": [
+                {
+                    "id": "347ff7fe-659c-447f-abe2-0a66e47497f7",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2026-06-26T14:25:56Z",
+                    "started_at": "2026-06-26T14:25:55Z",
+                    "updated_at": "2026-06-26T14:26:05Z",
+                    "order": 3,
+                    "task_number": 3
+                },
+                {
+                    "id": "c507ae82-936a-4414-9102-b65ef283fa9b",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "tests/4_duckduckgo_search.spec.ts",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2026-06-26T14:26:05Z",
+                    "started_at": "2026-06-26T14:26:14Z",
+                    "updated_at": "2026-06-26T14:26:40Z",
+                    "order": 5,
+                    "task_number": 3
+                },
+                {
+                    "id": "1ffb9240-3c7e-4858-8390-46c54af9dc85",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "tests/1_ecommerce_product_search.spec.ts",
+                    "iteration": 0,
+                    "link": "command.2.0.log",
+                    "created_at": "2026-06-26T14:26:05Z",
+                    "started_at": "2026-06-26T14:26:41Z",
+                    "updated_at": "2026-06-26T14:26:48Z",
+                    "order": 6,
+                    "task_number": 3
+                }
+            ]
+        }
+    ],
+    "test_ids": null
+}

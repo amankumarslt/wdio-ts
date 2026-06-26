@@ -1,0 +1,177 @@
+accessibilityJob: false
+alwaysRunPostSteps: false
+appium: null
+autosplit: true
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+cacheDirectories:
+    - node_modules
+cacheKey: '{{ checksum "package-lock.json" }}'
+captureScreenRecordingForScenarios: false
+codeDirectory: wdio-ts-sdk
+collectLocalGitData: true
+combineTasksInMatrixMode: false
+concurrency: 2
+cypress: false
+differentialUpload:
+    enabled: false
+    forcedDisabled: false
+    ttlHours: null
+dynamicAllocation: false
+errorCategorizedOnFailureOnly: false
+framework:
+    additional_args: null
+    args:
+        appId: ""
+        appPath: ""
+        artifacts: false
+        autoGrantPermissions: false
+        avoidAppLaunch: false
+        customData: {}
+        darkMode: false
+        deviceSelectionStrategy: ""
+        devices: []
+        disableReleaseDevice: false
+        enableBluetooth: false
+        enableResultBundle: false
+        filters:
+            attributes: []
+        fixedIP: ""
+        isRealMobile: null
+        isVirtualDevice: false
+        language: ""
+        locale: ""
+        localhost: false
+        minorOsVersion: false
+        mitmProxy: false
+        mobileDC: null
+        networkHar: false
+        networkLogsOptions:
+            captureContent: false
+            excludeHosts: []
+            includeHosts: []
+        otherApps: []
+        platformName: ""
+        playwrightRD: false
+        preservedDevice: false
+        queueTimeout: 0
+        shards:
+            mappings: []
+        skipInstall: false
+        skipUninstallPreviousBuild: false
+        skipXMLOnRun: false
+        smartUI: null
+        testRemarks: false
+        testSuiteAppId: ""
+        testSuitePath: ""
+        uninstallPreviousBuild: false
+        xcTestPlanId: ""
+        xcTestPlanPath: ""
+    baseCommand: ""
+    defaultReports: false
+    discoveryFlags: []
+    discoveryMode: ""
+    discoveryType: ""
+    downloadURL: ""
+    flags: []
+    isTestNGXMLSuite: false
+    licenseKey: ""
+    name: ""
+    runnerFlags: []
+    toscaArgs: null
+    userdefinediscovery: false
+    version: ""
+    workingDirectory: ""
+globalPost:
+    commands: []
+    completed: false
+    disableEmail: false
+    downloadArtifacts: false
+    email:
+        linkValidity: 0
+        metaInfo: []
+        templatePath: ""
+        to: []
+    mode: ""
+    runson: ""
+    shell: ""
+    workingDirectory: ""
+globalPre:
+    commands: []
+    completed: false
+    location: ""
+    maxRetries: 0
+    mode: ""
+    runson: ""
+    shell: ""
+    type: ""
+    workingDirectory: ""
+    yamlPath: null
+globalTimeout: 90
+jobID: bd372f94-4734-4da0-9541-f9bbe5882fc6
+jobLabel:
+    - wdio
+    - selenium
+    - linux
+    - autosplit
+key: '********'
+localHTTPProxy: ""
+ltOptions: {}
+maxRetriesPreSteps: 0
+meta: {}
+onpremEnv: ""
+platformConfig: null
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+pre:
+    - npm install
+preDirectives:
+    commands:
+        - npm install
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+project:
+    id: 01JYZRHQTYCRG1ZBKSM7DKY7V5
+    name: LambdaTest Default Project
+    type: custom
+projectpath: ""
+regionConfig:
+    storage:
+        enabled: false
+        name: ""
+        platform: azure
+        region: ""
+    vm: []
+runson: linux
+runtime:
+    language: node
+    version: "22"
+    addons: []
+    opts: {}
+slackChannel: ""
+sourcePayload:
+    verifySSL: true
+sprofilePath: ""
+storageType: ""
+testDiscovery:
+    command: grep -rl 'describe' tests/*.spec.ts
+    mode: remote
+    type: raw
+testDiscoveryResultV3: []
+testRunnerCommand: npx wdio run ./wdio.conf.ts --spec $test
+testSuiteStep: 90
+testSuiteTimeout: 90
+testSuites: []
+triggerMode: false
+triggerSource: CLI
+tunnel: "false"
+tunnelOpts:
+    testsPerTunnel: 10
+unzipPayload: false
+user: amankumars
+version: "0.1"
+waitForArtefactsUpload: false
+whiteLabelProductTag: ""
