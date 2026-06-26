@@ -10,6 +10,7 @@ on:
 jobs:
   hyperexecute:
     runs-on: ubuntu-latest
+    environment: LT_USERNAME
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
